@@ -9,6 +9,7 @@ The file has 2 tabs for yearly data and a Summary Analysis tab that has All Stoc
 
 ### Macro Logic Used in the file
 The macro broadly follows the steps below:
+
 (1) For the selected year, it goes into the relevant sheet and finds the number of Unique stock tickers and initializes 4 arrays for all tickers to store Ticker Name, Traded Total Volume, the Start Price and the End Price
 
 (2) It then loops through the data and reads it into these arrays for each unique ticker
